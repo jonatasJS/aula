@@ -2,9 +2,9 @@
   "name": "back-end",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/sever.js",
   "scripts": {
-    "start": "node .",
+    "start": "npm i && node src/sever.js",
     "test": "cross-env NODE_ENV=teste jest"
   },
   "keywords": [],
